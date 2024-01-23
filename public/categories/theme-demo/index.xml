@@ -10,9 +10,9 @@
     <atom:link href="https://example.org/categories/theme-demo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Math Typesetting</title>
-      <link>https://example.org/portfolio/math-typesetting/</link>
+      <link>https://example.org/algorithsm/math-typesetting/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.org/portfolio/math-typesetting/</guid>
+      <guid>https://example.org/algorithsm/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -10,16 +10,16 @@
     <atom:link href="https://example.org/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configuração de Equações Matemáticas</title>
-      <link>https://example.org/portfolio/math-typesetting.pt-br/</link>
+      <link>https://example.org/algorithsm/math-typesetting.pt-br/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.org/portfolio/math-typesetting.pt-br/</guid>
+      <guid>https://example.org/algorithsm/math-typesetting.pt-br/</guid>
       <description>&lt;p&gt;Em um projeto Hugo as Notações Matemáticas podem ser usadas com a ajuda de bibliotecas JavaScript de terceiros.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>https://example.org/portfolio/math-typesetting/</link>
+      <link>https://example.org/algorithsm/math-typesetting/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.org/portfolio/math-typesetting/</guid>
+      <guid>https://example.org/algorithsm/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
   </channel>

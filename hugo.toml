@@ -2,7 +2,6 @@ baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "Khoa Vê Lốc"
 theme = "digitalgarden"
-
 googleAnalytics = "UA-PROPERTY_ID"
 
 [Params]
@@ -33,25 +32,36 @@ googleAnalytics = "UA-PROPERTY_ID"
   weight = 2
 [[menu.main]]
   name = 'Paper'
-  url = '/articles'
+  url = '/Paper'
   weight = 3
 [[menu.main]]
   name = 'Algorithsm'
-  url = '/portfolio'
+  url = '/Algorithsm'
   weight = 4
 [[menu.main]]
   name = 'Project'
-  url = '/stack'
+  url = '/Project'
   weight = 5
 [[menu.main]]
   name = 'IELTS'
   params.header = true
   weight = 6
 [[menu.main]]
-  name = 'Readings'
-  url = 'https://polywork.com'
+  name = 'Reading'
+  url = '/IELTS/Reading'
   weight = 7
-
+[[menu.main]]
+  name = 'Listenning'
+  url = '/IELTS/Listening'
+  weight = 8
+[[menu.main]]
+  name = 'Writing'
+  url = '/IELTS/Writing'
+  weight = 9
+  [[menu.main]]
+  name = 'Speaking'
+  url = '/IELTS/Speaking'
+  weight = 10
 [[menu.social]]
   name = 'Facebook'
   url = 'https://twitter.com'

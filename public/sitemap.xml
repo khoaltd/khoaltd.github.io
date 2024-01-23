@@ -8,7 +8,7 @@
     <loc>https://example.org/categories/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/portfolio/math-typesetting.pt-br/</loc>
+    <loc>https://example.org/algorithsm/math-typesetting.pt-br/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/tags/css/</loc>
@@ -26,10 +26,10 @@
     <loc>https://example.org/tags/markdown/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/portfolio/math-typesetting/</loc>
+    <loc>https://example.org/algorithsm/math-typesetting/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/portfolio/</loc>
+    <loc>https://example.org/algorithsm/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/categories/sintaxe/</loc>
@@ -44,39 +44,36 @@
     <loc>https://example.org/categories/theme-demo/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/articles/installation/</loc>
+    <loc>https://example.org/paper/installation/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/articles/</loc>
+    <loc>https://example.org/paper/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/articles/structure/</loc>
+    <loc>https://example.org/paper/structure/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/articles/primary-menu/</loc>
+    <loc>https://example.org/paper/primary-menu/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/articles/social-menu/</loc>
+    <loc>https://example.org/paper/social-menu/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/articles/newsletter/</loc>
+    <loc>https://example.org/paper/newsletter/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/articles/google-analytics/</loc>
+    <loc>https://example.org/paper/google-analytics/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/articles/metatags/</loc>
+    <loc>https://example.org/paper/metatags/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/portfolio/design1/</loc>
-    <lastmod>2021-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/portfolio/design2/</loc>
+    <loc>https://example.org/algorithsm/design2/</loc>
     <lastmod>2021-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/portfolio/design3/</loc>
+    <loc>https://example.org/algorithsm/design3/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/stack/</loc>
+    <loc>https://example.org/project/</loc>
   </url>
 </urlset>

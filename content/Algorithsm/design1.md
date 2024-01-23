@@ -1,10 +1,11 @@
 ---
-title: Pastry jelly cookie sugar donut orange
-date: 2021-12-18
+title: Phân nhóm các thuật toán Machine Learning
+date: 2024-12-18
 images:
 - https://picsum.photos/id/25/400/300
 description: Sprinkles jelly ipsum sweet biscuit marzipan. Jelly dolor biscuit croissant croissant sweet.
 ---
+#Supervised Learning (Học có giám sát)
 
 Croissant orange croissant dolor orange croissant. Lollipop biscuit donut vanilla sweet croissant. Apple donut candy tiramisu cream jelly. Croissant sweet cookie vanilla tiramisu dolor.
 
