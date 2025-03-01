@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="vi-VN">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Ở đây chỉ có nhức đầu">
 <meta name="author" content="Dylan Lee">
 
-<title>Overview · Digital Garden</title>
+<title>Giới thiệu về Quantum Computing: Tính toán Lượng tử và Toán học · Digital Garden</title>
 
-<link rel="canonical" href="/docs/overview/">
+<link rel="canonical" href="//localhost:1313/docs/quantum/">
 
 
 
@@ -25,10 +25,6 @@
 <link rel="stylesheet" href="/scss/theme/default.css" integrity="">
 
 
-
-  <link rel="preconnect" href="https://-dsn.algolia.net" crossorigin />
-  
-  <link rel="stylesheet" href="/scss/component/docsearch.css" integrity=""/>
 
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/img/icon/favicon.ico">
@@ -151,7 +147,7 @@
 
   <div class="sticky"><strong class="sidebar-section">Documentation</strong>
           
-          <a class="sidebar-link current" href="/docs/overview/">
+          <a class="sidebar-link " href="/docs/overview/">
             
               Overview
             
@@ -185,12 +181,12 @@
   <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
 </nav>
       <header id="article-header">
-  <h1>Overview</h1>
+  <h1>Giới thiệu về Quantum Computing: Tính toán Lượng tử và Toán học</h1>
 </header>
       <div id="article-content">
         
         
-        <h1 id="giới-thiệu-về-quantum-computing-tính-toán-lượng-tử-và-toán-học">Giới thiệu về Quantum Computing: Tính toán Lượng tử và Toán học</h1>
+        <h1 id="giới-thiệu-về-quantum-computing">Giới thiệu về Quantum Computing</h1>
 <p>Máy tính lượng tử (Quantum Computing) là một lĩnh vực đầy hứa hẹn của khoa học máy tính, sử dụng các nguyên lý của cơ học lượng tử để thực hiện tính toán. Trái ngược với máy tính cổ điển, máy tính lượng tử không dựa trên bit (0 hoặc 1) mà sử dụng <strong>qubit</strong> (quantum bit), cho phép thực hiện các phép toán song song với tốc độ vượt trội.</p>
 <h2 id="1-qubit-là-gì">1. Qubit là gì?</h2>
 <p>Trong máy tính cổ điển, thông tin được lưu trữ dưới dạng bit (0 hoặc 1). Trong khi đó, <strong>qubit</strong> có thể tồn tại ở cả hai trạng thái <strong>0 và 1 cùng một lúc</strong> nhờ vào <strong>nguyên lý chồng chập lượng tử (Quantum Superposition)</strong>.</p>
@@ -198,8 +194,8 @@
 <p>$$ |\psi\rangle = \alpha |0\rangle + \beta |1\rangle $$</p>
 <p>trong đó:</p>
 <ul>
-<li>\( |0\rangle \) và \( |1\rangle \) là các trạng thái cơ sở,</li>
-<li>\( \alpha, \beta \) là các số phức thỏa mãn điều kiện chuẩn hóa: \( |\alpha|^2 + |\beta|^2 = 1 \).</li>
+<li>( |0\rangle ) và ( |1\rangle ) là các trạng thái cơ sở,</li>
+<li>( \alpha, \beta ) là các số phức thỏa mãn điều kiện chuẩn hóa: ( |\alpha|^2 + |\beta|^2 = 1 ).</li>
 </ul>
 <h2 id="2-cổng-lượng-tử-quantum-gates">2. Cổng lượng tử (Quantum Gates)</h2>
 <p>Tương tự như cổng logic trong máy tính cổ điển, máy tính lượng tử sử dụng các <strong>cổng lượng tử</strong> để thao tác trên qubit. Các cổng lượng tử tương ứng với các phép biến đổi toán học dưới dạng <strong>ma trận unitary</strong>.</p>
@@ -212,7 +208,7 @@ $$</p>
 <p>$$
 H |0\rangle = \frac{1}{\sqrt{2}} (|0\rangle + |1\rangle)
 $$</p>
-<p>Điều này có nghĩa là qubit sẽ có xác suất 50% là \( |0\rangle \) và 50% là \( |1\rangle \) nếu ta đo nó.</p>
+<p>Điều này có nghĩa là qubit sẽ có xác suất 50% là ( |0\rangle ) và 50% là ( |1\rangle ) nếu ta đo nó.</p>
 <h3 id="cổng-not-lượng-tử-x-gate">Cổng NOT lượng tử (X-gate)</h3>
 <p>Cổng này tương tự với cổng NOT trong máy tính cổ điển:</p>
 <p>$$
@@ -232,7 +228,7 @@ $$</p>
 <p>Hai thuật toán nổi bật trong điện toán lượng tử là:</p>
 <ul>
 <li><strong>Thuật toán Shor</strong>: Có thể phân tích số nguyên lớn thành thừa số nguyên tố với tốc độ vượt trội, đe dọa các hệ thống mã hóa RSA.</li>
-<li><strong>Thuật toán Grover</strong>: Cho phép tìm kiếm trong một danh sách không có thứ tự với tốc độ \( O(\sqrt{N})\), nhanh hơn thuật toán cổ điển \( O(N) \).</li>
+<li><strong>Thuật toán Grover</strong>: Cho phép tìm kiếm trong một danh sách không có thứ tự với tốc độ ( O(\sqrt{N}) ), nhanh hơn thuật toán cổ điển ( O(N) ).</li>
 </ul>
 <h2 id="5-ứng-dụng-và-tương-lai-của-quantum-computing">5. Ứng dụng và tương lai của Quantum Computing</h2>
 <p>Máy tính lượng tử có tiềm năng cách mạng hóa nhiều lĩnh vực như:</p>
@@ -262,6 +258,10 @@ $$</p>
   
         
 
+        
+          
+        
+
       
     
         
@@ -270,18 +270,25 @@ $$</p>
           
         
 
-        
-        
       
+    
+        
+
+        
+          
+        
+
+      
+    
 
 
 <footer id="article-footer">
   <time id="article-last-updated" datetime="2025-03-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 2025-03-01</time>
 
   
-
+    <a id="article-prev-link" href="/docs/page-02/"><i class="icon icon-prev icon-colored"></i> Prev</a>
   
-    <a id="article-next-link"  data-first-page=true  href="/docs/page-01/">Next <i class="icon icon-next icon-colored"></i></a>
+
   
 </footer>
     </article>
@@ -367,17 +374,6 @@ $$</p>
 <script type="text/javascript" src="/js/base.min.js"></script>
 
 
-
-  
-  <script src="/js/component/docsearch.min.js"></script>
-  <script type="application/javascript">
-      docsearch({
-          container: '#site-header-search',
-          appId: '',
-          indexName: '',
-          apiKey: '',
-      });
-  </script>
 
 
 <script type="application/javascript">

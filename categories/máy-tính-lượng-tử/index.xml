@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Máy Tính Lượng Tử on Digital Garden</title>
+    <link>//localhost:1313/categories/m%C3%A1y-t%C3%ADnh-l%C6%B0%E1%BB%A3ng-t%E1%BB%AD/</link>
+    <description>Recent content in Máy Tính Lượng Tử on Digital Garden</description>
+    <generator>Hugo</generator>
+    <language>vi-VN</language>
+    <lastBuildDate>Sat, 01 Mar 2025 23:20:21 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/m%C3%A1y-t%C3%ADnh-l%C6%B0%E1%BB%A3ng-t%E1%BB%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giới thiệu về Quantum Computing: Tính toán Lượng tử và Toán học</title>
+      <link>//localhost:1313/docs/quantum/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/quantum/</guid>
+      <description>Bài viết này giới thiệu về máy tính lượng tử, các nguyên lý toán học cơ bản và cách chúng hoạt động.</description>
+    </item>
+  </channel>
+</rss>

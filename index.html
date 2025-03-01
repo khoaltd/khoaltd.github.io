@@ -28,6 +28,10 @@
 
 
 
+  <link rel="preconnect" href="https://-dsn.algolia.net" crossorigin />
+  
+  <link rel="stylesheet" href="/scss/component/docsearch.css" integrity=""/>
+
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/img/icon/favicon.ico">
 <link rel="icon" href="/img/icon/icon-16.png" sizes="16x16" type="image/png">
@@ -94,10 +98,7 @@
           <li><a href="/"  class="active"><i class='icon icon-home'></i>Home</a></li>
         
           
-          <li><a href="/content/vi" ><i class='icon icon-book'></i>Bài viết</a></li>
-        
-          
-          <li><a href="/project" ><i class='icon icon-book'></i>Resume</a></li>
+          <li><a href="/docs" ><i class='icon icon-book'></i>Bài viết</a></li>
         
       </ul>
     </nav>
@@ -186,6 +187,17 @@
 <script type="text/javascript" src="/js/base.min.js"></script>
 
 
+
+  
+  <script src="/js/component/docsearch.min.js"></script>
+  <script type="application/javascript">
+      docsearch({
+          container: '#site-header-search',
+          appId: '',
+          indexName: '',
+          apiKey: '',
+      });
+  </script>
 
 
 <script type="application/javascript">
