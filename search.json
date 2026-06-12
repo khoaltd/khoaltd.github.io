@@ -11,20 +11,27 @@
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is the first post in a Quarto blog. Welcome!"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/paper/index.html",
+    "href": "posts/paper/index.html",
+    "title": "Tổng quan về các mô hình bệnh truyền nhiễm đa ngăn",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "Multi-compartment models have been playing a central role in modelling infectious disease dynamics since the early 20th century. They are a class of mathematical models widely used for describing the mechanism of an evolving epidemic. Integrated with certain sampling schemes, such mechanistic models can be applied to analyse public health surveillance data, such as assessing the effectiveness of preventive measures (e.g. social distancing and quarantine) and forecasting disease spread patterns. This review begins with a nationwide macromechanistic model and related statistical analyses, including model specification, estimation, inference and prediction. Then, it presents a community-level micromodel that enables high-resolution analyses of regional surveillance data to provide current and future risk information useful for local government and residents to make decisions on reopenings of local business and personal travels. R software and scripts are provided whenever appropriate to illustrate the numerical detail of algorithms and calculations. The coronavirus disease 2019 pandemic surveillance data from the state of Michigan are used for the illustration throughout this paper.\n\n\n\n\n\n\nNote\n\n\n\n\n\n\nintegrated with /ˈɪn.tɪ.ɡreɪ.tɪd wɪð/ (adj): Được tích hợp với; trong đó nhiều bộ phận hoặc thành phần được kết nối chặt chẽ và hoạt động cùng nhau như một hệ thống thống nhất.\nscheme /skiːm/ (n): Một kế hoạch, chương trình hoặc hệ thống được thiết kế để tổ chức hay thực hiện một hoạt động cụ thể.\nsurveillance /səˈveɪ.ləns/ (n): Hoạt động theo dõi, giám sát có hệ thống nhằm thu thập thông tin về một đối tượng, hiện tượng hoặc tình trạng nào đó. Trong y tế công cộng, từ này thường chỉ việc giám sát dịch bệnh.\nassess sb/sth /əˈses/ (v): Đánh giá bản chất, chất lượng, giá trị hoặc mức độ của ai đó hay điều gì đó.\neffectiveness /ɪˈfek.tɪv.nəs/ (n): Mức độ đạt được kết quả mong muốn hoặc mục tiêu đã đề ra; tính hiệu quả.\npreventive /prɪˈven.tɪv/ (adj): Được thiết kế nhằm ngăn ngừa hoặc làm giảm khả năng xảy ra bệnh tật, tai nạn hoặc các vấn đề khác.\nmeasures /ˈmeʒ.əz/ (n): Các biện pháp, hành động hoặc bước được thực hiện để giải quyết một vấn đề hoặc đạt được một mục tiêu cụ thể.\nquarantine /ˈkwɒr.ən.tiːn/ (n, v): Sự cách ly hoặc hành động cách ly người, động vật hoặc vật thể có nguy cơ mang mầm bệnh nhằm ngăn chặn sự lây lan của dịch bệnh.\nmacromechanistic /ˌmæk.rəʊˌmek.əˈnɪs.tɪk/ (adj): Thuộc về mô hình cơ chế ở quy mô lớn, mô tả các quá trình hoặc hiện tượng ở cấp độ toàn hệ thống hoặc toàn bộ quần thể.\nmicromodel /ˈmaɪ.krəʊˌmɒd.əl/ (n): Mô hình quy mô nhỏ, tập trung vào các cá thể, nhóm hoặc cộng đồng cụ thể để phân tích chi tiết hơn.\nappropriate /əˈprəʊ.pri.ət/ (adj): Phù hợp, thích hợp với một tình huống, mục đích hoặc hoàn cảnh cụ thể."
+  },
+  {
+    "objectID": "posts/paper/index.html#building-an-infectious-disease-model",
+    "href": "posts/paper/index.html#building-an-infectious-disease-model",
+    "title": "Tổng quan về các mô hình bệnh truyền nhiễm đa ngăn",
+    "section": "Building an Infectious Disease Model",
+    "text": "Building an Infectious Disease Model\nModelling for infectious diseases has a profound role in informing public health policy across the world . The outbreak of the COVID-19 pandemic in December 2019 has led to a surge of interest in disease projection that ubiquitously relies on mathematical and statistical models. A crucial step in modelling disease evolution is to capture key dynamics of the underlying disease transmission mechanisms from available public health surveillance data, which enables reliable projection of disease infection into the future. A prediction model may help us foresee some possible future epidemic/pandemic scenarios and learn consequent impacts of current economic and personal sacrifices due to various control measures.\n\n\n\n\n\n\nNote\n\n\n\n\n\n\nprofound /prəˈfaʊnd/ (adj): Rất lớn, sâu sắc hoặc có ảnh hưởng đáng kể.\ninform /ɪnˈfɔːm/ (v): Cung cấp thông tin hoặc làm cơ sở cho việc đưa ra quyết định, chính sách.\nsurge /sɜːdʒ/ (n): Sự gia tăng mạnh mẽ, đột biến trong một khoảng thời gian ngắn.\nprojection /prəˈdʒek.ʃən/ (n): Sự dự báo hoặc ước tính các giá trị, xu hướng hoặc sự kiện trong tương lai dựa trên dữ liệu hiện có.\nubiquitously /juːˈbɪk.wɪ.təs.li/ (adv): Một cách phổ biến, xuất hiện ở khắp mọi nơi.\nrely on /rɪˈlaɪ ɒn/ (v): Phụ thuộc vào hoặc dựa vào ai đó/cái gì đó để đạt được kết quả mong muốn.\ncrucial /ˈkruː.ʃəl/ (adj): Cực kỳ quan trọng hoặc mang tính quyết định.\ncapture /ˈkæp.tʃər/ (v): Mô tả, phản ánh hoặc thể hiện chính xác một hiện tượng, đặc điểm hoặc quá trình.\nunderlying /ˌʌn.dəˈlaɪ.ɪŋ/ (adj): Tiềm ẩn, cơ bản hoặc nằm bên dưới một hiện tượng có thể quan sát được.\nreliable /rɪˈlaɪ.ə.bəl/ (adj): Đáng tin cậy; có thể được tin tưởng về độ chính xác hoặc tính ổn định.\nforesee /fɔːˈsiː/ (v): Dự đoán hoặc nhìn thấy trước những gì có thể xảy ra trong tương lai.\nscenario /sɪˈnɑː.ri.əʊ/ (n): Kịch bản; một tình huống hoặc chuỗi sự kiện có thể xảy ra.\nconsequent /ˈkɒn.sɪ.kwənt/ (adj): Xảy ra như một kết quả hoặc hệ quả của một sự kiện khác.\nsacrifice /ˈsæk.rɪ.faɪs/ (n): Sự hy sinh; việc từ bỏ một điều gì đó có giá trị để đạt được mục tiêu khác.\ncontrol measure /kənˈtrəʊl ˈmeʒ.ər/ (n): Biện pháp kiểm soát được áp dụng nhằm hạn chế hoặc ngăn chặn một vấn đề, chẳng hạn như sự lây lan của dịch bệnh."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "my_blog",
+    "title": "Dylan Lee",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 12, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 9, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Tổng quan về các mô hình bệnh truyền nhiễm đa ngăn\n\n\n\npaper\n\n\n\n\n\n\n\n\n\nJun 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\nJun 9, 2026\n\n\n\n\n\nNo matching items"
   }
 ]

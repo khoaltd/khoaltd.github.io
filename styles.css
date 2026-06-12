@@ -1,1 +1,20 @@
 /* css styles */
+/* Headings */
+h1 {
+  color: #0066cc;
+}
+
+h2 {
+  color: #0066cc;
+}
+
+h3 {
+  color: #0066cc;
+}
+
+/* Bold text */
+strong,
+b {
+  color: #0066cc;
+  font-weight: 700;
+}

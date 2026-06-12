@@ -5,49 +5,133 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>my_blog</title>
+<title>Dylan Lee blog</title>
 <link>https:/khoaltd.github.io/</link>
 <atom:link href="https:/khoaltd.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.8.27</generator>
 <lastBuildDate>Thu, 11 Jun 2026 17:00:00 GMT</lastBuildDate>
 <item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https:/khoaltd.github.io/posts/post-with-code/</link>
+  <title>Tổng quan về các mô hình bệnh truyền nhiễm đa ngăn</title>
+  <link>https:/khoaltd.github.io/posts/paper/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>This is a post with executable code.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<section id="summary" class="level1">
+<h1>Summary</h1>
+<p>Multi-compartment models have been playing a central role in modelling infectious disease dynamics since the early 20th century. They are a class of mathematical models widely used for describing the mechanism of an evolving epidemic. <strong>Integrated with</strong> certain sampling <strong>schemes</strong>, such mechanistic models can be applied to analyse public health <strong>surveillance</strong> data, such as <strong>assessing</strong> the <strong>effectiveness</strong> of <strong>preventive</strong> <strong>measures</strong> (e.g.&nbsp;social distancing and <strong>quarantine</strong>) and forecasting disease spread patterns. This review begins with a nationwide <strong>macromechanistic</strong> model and related statistical analyses, including model specification, estimation, inference and prediction. Then, it presents a community-level <strong>micromodel</strong> that enables high-resolution analyses of regional surveillance data to provide current and future risk information useful for local government and residents to make decisions on reopenings of local business and personal travels. R software and scripts are provided whenever <strong>appropriate</strong> to illustrate the numerical detail of algorithms and calculations. The coronavirus disease 2019 pandemic surveillance data from the state of Michigan are used for the illustration throughout this paper.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong>integrated with</strong> /ˈɪn.tɪ.ɡreɪ.tɪd wɪð/ (adj): Được tích hợp với; trong đó nhiều bộ phận hoặc thành phần được kết nối chặt chẽ và hoạt động cùng nhau như một hệ thống thống nhất.</p></li>
+<li><p><strong>scheme</strong>&nbsp;/skiːm/ (n): Một kế hoạch, chương trình hoặc hệ thống được thiết kế để tổ chức hay thực hiện một hoạt động cụ thể.</p></li>
+<li><p><strong>surveillance</strong> /səˈveɪ.ləns/ (n): Hoạt động theo dõi, giám sát có hệ thống nhằm thu thập thông tin về một đối tượng, hiện tượng hoặc tình trạng nào đó. Trong y tế công cộng, từ này thường chỉ việc giám sát dịch bệnh.</p></li>
+<li><p><strong>assess sb/sth</strong> /əˈses/ (v): Đánh giá bản chất, chất lượng, giá trị hoặc mức độ của ai đó hay điều gì đó.</p></li>
+<li><p><strong>effectiveness</strong> /ɪˈfek.tɪv.nəs/ (n): Mức độ đạt được kết quả mong muốn hoặc mục tiêu đã đề ra; tính hiệu quả.</p></li>
+<li><p><strong>preventive</strong> /prɪˈven.tɪv/ (adj): Được thiết kế nhằm ngăn ngừa hoặc làm giảm khả năng xảy ra bệnh tật, tai nạn hoặc các vấn đề khác.</p></li>
+<li><p><strong>measures</strong> /ˈmeʒ.əz/ (n): Các biện pháp, hành động hoặc bước được thực hiện để giải quyết một vấn đề hoặc đạt được một mục tiêu cụ thể.</p></li>
+<li><p><strong>quarantine</strong> /ˈkwɒr.ən.tiːn/ (n, v): Sự cách ly hoặc hành động cách ly người, động vật hoặc vật thể có nguy cơ mang mầm bệnh nhằm ngăn chặn sự lây lan của dịch bệnh.</p></li>
+<li><p><strong>macromechanistic</strong>&nbsp;/ˌmæk.rəʊˌmek.əˈnɪs.tɪk/ (adj): Thuộc về mô hình cơ chế ở quy mô lớn, mô tả các quá trình hoặc hiện tượng ở cấp độ toàn hệ thống hoặc toàn bộ quần thể.</p></li>
+<li><p><strong>micromodel</strong>&nbsp;/ˈmaɪ.krəʊˌmɒd.əl/ (n): Mô hình quy mô nhỏ, tập trung vào các cá thể, nhóm hoặc cộng đồng cụ thể để phân tích chi tiết hơn.</p></li>
+<li><p><strong>appropriate</strong>&nbsp;/əˈprəʊ.pri.ət/ (adj): Phù hợp, thích hợp với một tình huống, mục đích hoặc hoàn cảnh cụ thể.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Coronavirus disease 2019 (COVID-19), an infectious disease caused by <strong>severe</strong> <strong>acute</strong> <strong>respiratory</strong> <strong>syndrome</strong> coronavirus 2 (SARS-CoV-2), has become a global pandemic that has spread <strong>swiftly</strong> across the world since its original outbreak in Hubei, China, in December 2020. As of 27 June 2020, this pandemic has caused a total of 9.801.572 confirmed cases and 494.181 <strong>fatalities</strong> in more than 200 countries. Being one of the most <strong>lethal communicable</strong> infectious diseases in human history, it is expected that the COVID-19 pandemic will continue spreading in the world population, causing even higher numbers of infections and deaths in the future. With no effective medical treatments or vaccines currently available, public health <strong>interventions</strong> such as social distancing have been <strong>implemented</strong> in most of the countries to <strong>mitigate</strong> the spread of the pandemic. One of the central tasks of statistical modelling is to provide a suitable risk prediction model that enables both government and public health workers to evaluate the effectiveness of public health policies and predict risk of COVID-19 infection at the national and regional levels. Such information is valuable for governments to assess the <strong>preparedness</strong> of medical resources (<strong>personal protective equipments</strong> and <strong>intensive care unit</strong> beds), to adjust various intervention policies and to <strong>enforce</strong> the operation of social distancing.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong>severe</strong> <strong>acute</strong> <strong>respiratory</strong> <strong>syndrome</strong> <strong>(SARS)</strong> (n) hội chứng suy hô hấp cấp tính nặng</p></li>
+<li><p><strong>swiftly</strong> /ˈswɪftli/ (adv): nhanh chóng, sau một khoảng thời gian rất ngắn.</p></li>
+<li><p><strong>fatality</strong> /fəˈtæl.ə.ti/ (n): Ca tử vong do tai nạn, thiên tai hoặc bệnh tật.</p></li>
+<li><p><strong>lethal</strong> /ˈliː.θəl/ (adj): Gây chết người; có khả năng gây tử vong.</p></li>
+<li><p><strong>communicable</strong> /kəˈmjuː.nɪ.kə.bəl/ (adj): Có khả năng lây truyền từ người này sang người khác.</p></li>
+<li><p><strong>intervention</strong> /ˌɪn.təˈven.ʃən/ (n): Biện pháp can thiệp nhằm thay đổi hoặc cải thiện một tình huống.</p></li>
+<li><p><strong>implement sth</strong> /ˈɪmplɪment/ (v) Làm cho điều gì đó đã được quyết định chính thức bắt đầu xảy ra hoặc được sử dụng.</p></li>
+<li><p><strong>mitigate</strong> /ˈmɪt.ɪ.ɡeɪt/ (v): Làm giảm mức độ nghiêm trọng hoặc tác động tiêu cực của một vấn đề.</p></li>
+<li><p><strong>preparedness</strong> /prɪˈpeə.rɪd.nəs/ (n): Sự chuẩn bị sẵn sàng cho các tình huống có thể xảy ra.</p></li>
+<li><p><strong>personal protective equipment (PPE)</strong> (n): Trang bị bảo hộ cá nhân dùng để bảo vệ người sử dụng khỏi các nguy cơ sức khỏe.</p></li>
+<li><p><strong>intensive care unit (ICU)</strong> (n): Khoa hồi sức tích cực, nơi điều trị bệnh nhân nguy kịch.</p></li>
+<li><p><strong>enforce</strong> /ɪnˈfɔːs/ (v): Thực thi hoặc áp dụng một luật lệ, quy định hoặc chính sách.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<section id="building-an-infectious-disease-model" class="level2">
+<h2 class="anchored" data-anchor-id="building-an-infectious-disease-model">Building an Infectious Disease Model</h2>
+<p>Modelling for infectious diseases has a <strong>profound</strong> role in <strong>informing</strong> public health policy across the world . The outbreak of the COVID-19 pandemic in December 2019 has led to a <strong>surge of</strong> interest in disease <strong>projection</strong> that <strong>ubiquitously</strong> <strong>relies on</strong> mathematical and statistical models. A <strong>crucial</strong> step in modelling disease evolution is to capture key dynamics of the <strong>underlying</strong> disease transmission mechanisms from available public health surveillance data, which enables reliable projection of disease infection into the future. A prediction model may help us <strong>foresee</strong> some possible future epidemic/pandemic <strong>scenarios</strong> and learn <strong>consequent</strong> impacts of current economic and personal <strong>sacrifices</strong> due to various <strong>control measures</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong>profound</strong> /prəˈfaʊnd/ (adj): Rất lớn, sâu sắc hoặc có ảnh hưởng đáng kể.</p></li>
+<li><p><strong>inform</strong> /ɪnˈfɔːm/ (v): Cung cấp thông tin hoặc làm cơ sở cho việc đưa ra quyết định, chính sách.</p></li>
+<li><p><strong>surge</strong> /sɜːdʒ/ (n): Sự gia tăng mạnh mẽ, đột biến trong một khoảng thời gian ngắn.</p></li>
+<li><p><strong>projection</strong> /prəˈdʒek.ʃən/ (n): Sự dự báo hoặc ước tính các giá trị, xu hướng hoặc sự kiện trong tương lai dựa trên dữ liệu hiện có.</p></li>
+<li><p><strong>ubiquitously</strong> /juːˈbɪk.wɪ.təs.li/ (adv): Một cách phổ biến, xuất hiện ở khắp mọi nơi.</p></li>
+<li><p><strong>rely on</strong> /rɪˈlaɪ ɒn/ (v): Phụ thuộc vào hoặc dựa vào ai đó/cái gì đó để đạt được kết quả mong muốn.</p></li>
+<li><p><strong>crucial</strong> /ˈkruː.ʃəl/ (adj): Cực kỳ quan trọng hoặc mang tính quyết định.</p></li>
+<li><p><strong>capture</strong> /ˈkæp.tʃər/ (v): Mô tả, phản ánh hoặc thể hiện chính xác một hiện tượng, đặc điểm hoặc quá trình.</p></li>
+<li><p><strong>underlying</strong> /ˌʌn.dəˈlaɪ.ɪŋ/ (adj): Tiềm ẩn, cơ bản hoặc nằm bên dưới một hiện tượng có thể quan sát được.</p></li>
+<li><p><strong>reliable</strong> /rɪˈlaɪ.ə.bəl/ (adj): Đáng tin cậy; có thể được tin tưởng về độ chính xác hoặc tính ổn định.</p></li>
+<li><p><strong>foresee</strong> /fɔːˈsiː/ (v): Dự đoán hoặc nhìn thấy trước những gì có thể xảy ra trong tương lai.</p></li>
+<li><p><strong>scenario</strong> /sɪˈnɑː.ri.əʊ/ (n): Kịch bản; một tình huống hoặc chuỗi sự kiện có thể xảy ra.</p></li>
+<li><p><strong>consequent</strong> /ˈkɒn.sɪ.kwənt/ (adj): Xảy ra như một kết quả hoặc hệ quả của một sự kiện khác.</p></li>
+<li><p><strong>sacrifice</strong> /ˈsæk.rɪ.faɪs/ (n): Sự hy sinh; việc từ bỏ một điều gì đó có giá trị để đạt được mục tiêu khác.</p></li>
+<li><p><strong>control measure</strong> /kənˈtrəʊl ˈmeʒ.ər/ (n): Biện pháp kiểm soát được áp dụng nhằm hạn chế hoặc ngăn chặn một vấn đề, chẳng hạn như sự lây lan của dịch bệnh.</p></li>
+</ul>
+</div>
 </div>
 </div>
 
 
+</section>
+</section>
 
  ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https:/khoaltd.github.io/posts/post-with-code/</guid>
+  <category>paper</category>
+  <guid>https:/khoaltd.github.io/posts/paper/</guid>
   <pubDate>Thu, 11 Jun 2026 17:00:00 GMT</pubDate>
-  <media:content url="https:/khoaltd.github.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https:/khoaltd.github.io/posts/paper/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
   <link>https:/khoaltd.github.io/posts/welcome/</link>
   <description><![CDATA[ 
 
@@ -57,12 +141,10 @@ font-style: inherit;">1</span></span></code></pre></div></div>
 
 <p>This is the first post in a Quarto blog. Welcome!</p>
 <p><img src="https:/khoaltd.github.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
 
 
 
  ]]></description>
-  <category>news</category>
   <guid>https:/khoaltd.github.io/posts/welcome/</guid>
   <pubDate>Mon, 08 Jun 2026 17:00:00 GMT</pubDate>
 </item>
