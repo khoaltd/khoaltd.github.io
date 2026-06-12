@@ -1,1 +1,1 @@
-Sitemap: https://khoaltd.github.io/sitemap.xml
+Sitemap: https:/khoaltd.github.io/sitemap.xml

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://khoaltd.github.io/about.html</loc>
-    <lastmod>2026-06-12T11:34:38.749Z</lastmod>
+    <loc>https:/khoaltd.github.io/about.html</loc>
+    <lastmod>2026-06-12T12:24:50.757Z</lastmod>
   </url>
   <url>
-    <loc>https://khoaltd.github.io/index.html</loc>
-    <lastmod>2026-06-12T11:34:38.749Z</lastmod>
+    <loc>https:/khoaltd.github.io/posts/welcome/index.html</loc>
+    <lastmod>2026-06-12T12:24:50.752Z</lastmod>
+  </url>
+  <url>
+    <loc>https:/khoaltd.github.io/posts/post-with-code/index.html</loc>
+    <lastmod>2026-06-12T12:24:50.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https:/khoaltd.github.io/index.html</loc>
+    <lastmod>2026-06-12T12:25:37.698Z</lastmod>
   </url>
 </urlset>
