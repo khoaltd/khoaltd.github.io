@@ -12,8 +12,158 @@
 <generator>quarto-1.8.27</generator>
 <lastBuildDate>Thu, 11 Jun 2026 17:00:00 GMT</lastBuildDate>
 <item>
+  <title>Dynamic Epidemiological Models for Dengue Transmission: A Systematic Review of Structural Approaches</title>
+  <link>https:/khoaltd.github.io/posts/paper_01/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="abtract" class="level1">
+<h1>Abtract</h1>
+<p>Dengue is a <strong>vector-borne disease</strong> recognized as the major <strong>arbovirose</strong> with four <strong>immunologically</strong> distant dengue <strong>serotypes</strong> <strong>coexisting</strong> in many <strong>endemic areas</strong>. Several mathematical models have been developed to understand the transmission dynamics of dengue, including the role of <strong>cross-reactive antibodies</strong> for the four different dengue serotypes. We aimed to review <strong>deterministic models</strong> of dengue transmission, in order to summarize the evolution of <strong>insights</strong> for, and provided by, such models, and to identify important characteristics for future model development. We identified relevant publications using PubMed and ISI Web of Knowledge, focusing on mathematical deterministic models of dengue transmission. Model assumptions were <strong>systematically</strong> extracted from each reviewed model structure, and were linked with their <strong>underlying epidemiological concepts</strong>. After defining common terms in vector-borne disease modelling, we generally categorised fourty-two published models of interest into single serotype and multiserotype models. The multi-serotype models assumed either <strong>vector-host</strong> or direct <strong>host-to-host transmission</strong> (ignoring the <strong>vector component</strong>). For each approach, we discussed the underlying structural and parameter assumptions, threshold behaviour and the projected impact of <strong>interventions</strong>. In view of the expected availability of dengue vaccines, modelling approaches will increasingly focus on the <strong>effectiveness</strong> and cost-effectiveness of <strong>vaccination</strong> options. For this purpose, the level of <strong>representation</strong> of the vector and host populations seems pivotal. Since vector-host transmission models would be required for projections of combined vaccination and <strong>vector control interventions</strong>, we <strong>advocate</strong> their use as most relevant to advice health policy in the future. The limited understanding of the factors which influence dengue transmission as well as limited data availability remain important concerns when applying dengue models to real-world decision problems.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong>vector-borne disease</strong> /ˈvek.tə bɔːn dɪˈziːz/ (n): Bệnh truyền qua véc-tơ (như muỗi, ve hoặc côn trùng khác truyền mầm bệnh sang người).</p></li>
+<li><p><strong>arbovirose</strong> /ˌɑː.bə.vaɪˈrəʊ.sɪs/ (n): Bệnh do arbovirus gây ra, thường lây truyền qua côn trùng hút máu như muỗi.</p></li>
+<li><p><strong>immunologically</strong> /ɪˌmjuː.nəˈlɒdʒ.ɪ.kəl.i/ (adv): Về mặt miễn dịch học; liên quan đến hệ miễn dịch của cơ thể.</p></li>
+<li><p><strong>serotype</strong> /ˈsɪə.rə.taɪp/ (n): Kiểu huyết thanh; một nhóm vi sinh vật được phân loại dựa trên các kháng nguyên đặc hiệu.</p></li>
+<li><p><strong>coexist</strong> /ˌkəʊ.ɪɡˈzɪst/ (v): Cùng tồn tại trong một khu vực hoặc một hệ thống.</p></li>
+<li><p><strong>endemic area</strong> /enˈdem.ɪk ˈeə.ri.ə/ (n): Vùng lưu hành dịch; khu vực mà một bệnh xuất hiện thường xuyên và ổn định.</p></li>
+<li><p><strong>cross-reactive antibody</strong> /krɒs riˈæk.tɪv ˈæn.tɪˌbɒd.i/ (n): Kháng thể phản ứng chéo; kháng thể có khả năng nhận diện nhiều kháng nguyên tương tự nhau.</p></li>
+<li><p><strong>deterministic model</strong> /dɪˌtɜː.mɪˈnɪs.tɪk ˈmɒd.əl/ (n): Mô hình tất định; mô hình trong đó kết quả được xác định hoàn toàn bởi các tham số và điều kiện ban đầu.</p></li>
+<li><p><strong>insight</strong> /ˈɪn.saɪt/ (n): Hiểu biết sâu sắc hoặc nhận thức quan trọng về một vấn đề.</p></li>
+<li><p><strong>systematically</strong> /ˌsɪs.təˈmæt.ɪ.kəl.i/ (adv): Một cách có hệ thống, theo phương pháp rõ ràng và nhất quán.</p></li>
+<li><p><strong>underlying</strong> /ˌʌn.dəˈlaɪ.ɪŋ/ (adj): Cơ bản, tiềm ẩn hoặc nằm phía dưới một hiện tượng quan sát được.</p></li>
+<li><p><strong>epidemiological concept</strong> /ˌep.ɪˌdiː.mi.əˈlɒdʒ.ɪ.kəl ˈkɒn.sept/ (n): Khái niệm dịch tễ học liên quan đến sự phân bố và nguyên nhân của bệnh tật trong quần thể.</p></li>
+<li><p><strong>multiserotype model</strong> /ˌmʌl.tiˈsɪə.rə.taɪp ˈmɒd.əl/ (n): Mô hình đa kiểu huyết thanh, xem xét đồng thời nhiều serotype của cùng một tác nhân gây bệnh.</p></li>
+<li><p><strong>vector-host transmission</strong> /ˈvek.tə həʊst trænzˈmɪʃ.ən/ (n): Sự lây truyền giữa véc-tơ (ví dụ muỗi) và vật chủ (ví dụ con người).</p></li>
+<li><p><strong>host-to-host transmission</strong> /həʊst tə həʊst trænzˈmɪʃ.ən/ (n): Sự lây truyền trực tiếp từ vật chủ này sang vật chủ khác.</p></li>
+<li><p><strong>intervention</strong> /ˌɪn.təˈven.ʃən/ (n): Biện pháp can thiệp nhằm kiểm soát hoặc thay đổi diễn biến của một vấn đề sức khỏe.</p></li>
+<li><p><strong>effectiveness</strong> /ɪˈfek.tɪv.nəs/ (n): Mức độ đạt được kết quả mong muốn; tính hiệu quả.</p></li>
+<li><p><strong>vaccination</strong> /ˌvæk.sɪˈneɪ.ʃən/ (n): Việc tiêm vắc-xin để tạo miễn dịch chống lại bệnh.</p></li>
+<li><p><strong>representation</strong> /ˌrep.rɪ.zenˈteɪ.ʃən/ (n): Mức độ mô tả hoặc biểu diễn một đối tượng trong mô hình.</p></li>
+<li><p><strong>vector control intervention</strong> /ˈvek.tə kənˈtrəʊl ˌɪn.təˈven.ʃən/ (n): Biện pháp kiểm soát véc-tơ nhằm giảm sự lây lan của bệnh truyền qua côn trùng.</p></li>
+<li><p><strong>advocate</strong> /ˈæd.və.keɪt/ (v): Ủng hộ hoặc khuyến nghị mạnh mẽ một ý tưởng hoặc phương pháp.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="introdution" class="level1">
+<h1>Introdution</h1>
+<p>Dengue is a vector-borne disease recognized as the major arbovirose (<strong>arthropod-borne virus</strong>) in the world with more than 50 million dengue fever cases per year. The major vector, <strong>Aedes aegypti</strong>, <strong>thrives</strong> in tropical regions, mainly in urban areas, closely linked to human populations providing artificial <strong>water-holding containers</strong> as <strong>breeding sites</strong> . A second potential vector, <strong>Aedes Albopictus</strong>, resides in temperate regions (North America and Europe), where it may <strong>give rise to</strong> <strong>occasional</strong> dengue outbreaks.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong>arthropod-borne virus</strong> /ˈɑː.θrə.pɒd bɔːn ˈvaɪə.rəs/ (n): Virus lây truyền qua các loài chân đốt như muỗi, ve hoặc bọ chét.</p></li>
+<li><p><strong>Aedes aegypti</strong> /ˈiː.diːz iːˈdʒɪp.taɪ/ (n): Muỗi vằn Aedes aegypti, véc-tơ chính truyền bệnh sốt xuất huyết Dengue.</p></li>
+<li><p><strong>thrive</strong> /θraɪv/ (v): Phát triển mạnh, sinh trưởng tốt trong một môi trường nhất định.</p></li>
+<li><p><strong>closely linked to</strong> /ˈkləʊs.li lɪŋkt tuː/ (adj): Có mối liên hệ chặt chẽ với.</p></li>
+<li><p><strong>water-holding container</strong> /ˈwɔː.tə ˌhəʊl.dɪŋ kənˈteɪ.nər/ (n): Dụng cụ chứa nước như chum, vại, xô, lốp xe cũ,… có thể tích tụ nước.</p></li>
+<li><p><strong>breeding site</strong> /ˈbriː.dɪŋ saɪt/ (n): Nơi sinh sản hoặc đẻ trứng của côn trùng, động vật hoặc vi sinh vật.</p></li>
+<li><p><strong>potential vector</strong> /pəˈten.ʃəl ˈvek.tə/ (n): Véc-tơ tiềm năng; loài có khả năng truyền bệnh nhưng không phải véc-tơ chính.</p></li>
+<li><p><strong>Aedes albopictus</strong> /ˈiː.diːz ˌæl.bəˈpɪk.təs/ (n): Muỗi hổ châu Á (Asian tiger mosquito), một véc-tơ truyền Dengue và một số bệnh do virus khác.</p></li>
+<li><p><strong>give rise to</strong> /ɡɪv raɪz tuː/ (v): Dẫn đến, gây ra hoặc làm phát sinh một hiện tượng nào đó.</p></li>
+<li><p><strong>occasional</strong> /əˈkeɪ.ʒən.əl/ (adj): Thỉnh thoảng xảy ra; không thường xuyên.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>Four <strong>immunologically distant</strong> dengue serotypes (DEN-1, DEN- 2, DEN-3 and DEN-4) coexist in many endemic areas. Infection with one <strong>serotype</strong> has been shown to provide life-long immunity to that serotype but no or only short-term immunity to the other serotypes . The clinical features of dengue have a broad spectrum: most infections remain asymptomatic or induce <strong>flu-like symptoms</strong> (<strong>dengue fever</strong> (DF)). <strong>Dengue Hemorrhagic Fever</strong> (DHF) and <strong>Dengue Shock Syndrome</strong> (DSS) are the most <strong>severe expressions</strong>, with <strong>case-fatality ratios</strong> (CFR) varying from less than 1% to 13% depending on regions and hospitals. In <strong>previously infected</strong> persons, <strong>subsequent infectio</strong>n with another dengue serotype leads to clinical disease for most serotype combinations, and is considered a major risk-factor for DHF/ DSS.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong>immunologically distant</strong> /ɪˌmjuː.nəˈlɒdʒ.ɪ.kəl.i ˈdɪs.tənt/ (adj): Khác biệt đáng kể về mặt miễn dịch học; phản ứng miễn dịch đối với một tác nhân không bảo vệ hiệu quả chống lại tác nhân còn lại.</p></li>
+<li><p><strong>serotype</strong> /ˈsɪə.rə.taɪp/ (n): Kiểu huyết thanh; một nhóm vi sinh vật được phân loại dựa trên các kháng nguyên đặc hiệu trên bề mặt.</p></li>
+<li><p><strong>life-long immunity</strong> /laɪf lɒŋ ɪˈmjuː.nə.ti/ (n): Miễn dịch suốt đời; khả năng được bảo vệ khỏi tái nhiễm trong suốt cuộc đời.</p></li>
+<li><p><strong>short-term immunity</strong> /ʃɔːt tɜːm ɪˈmjuː.nə.ti/ (n): Miễn dịch ngắn hạn; khả năng bảo vệ chỉ kéo dài trong một khoảng thời gian giới hạn.</p></li>
+<li><p><strong>clinical feature</strong> /ˈklɪn.ɪ.kəl ˈfiː.tʃər/ (n): Đặc điểm lâm sàng; các dấu hiệu hoặc triệu chứng biểu hiện của bệnh.</p></li>
+<li><p><strong>broad spectrum</strong> /brɔːd ˈspek.trəm/ (n): Phạm vi rộng; nhiều mức độ hoặc hình thức biểu hiện khác nhau.</p></li>
+<li><p><strong>asymptomatic</strong> /ˌeɪ.sɪmp.təˈmæt.ɪk/ (adj): Không có triệu chứng bệnh mặc dù đã bị nhiễm.</p></li>
+<li><p><strong>induce</strong> /ɪnˈdjuːs/ (v): Gây ra hoặc dẫn đến một tình trạng hoặc phản ứng nào đó.</p></li>
+<li><p><strong>flu-like symptoms</strong> /fluː laɪk ˈsɪmp.təmz/ (n): Các triệu chứng giống cúm như sốt, đau đầu, đau cơ và mệt mỏi.</p></li>
+<li><p><strong>dengue fever (DF)</strong> /ˈdeŋ.ɡi ˈfiː.vər/ (n): Sốt Dengue, thể bệnh phổ biến với các triệu chứng từ nhẹ đến trung bình.</p></li>
+<li><p><strong>Dengue Hemorrhagic Fever (DHF)</strong> /ˈdeŋ.ɡi ˌhem.əˈrædʒ.ɪk ˈfiː.vər/ (n): Sốt xuất huyết Dengue, thể nặng hơn của bệnh Dengue với biểu hiện xuất huyết và tăng tính thấm thành mạch.</p></li>
+<li><p><strong>Dengue Shock Syndrome (DSS)</strong> /ˈdeŋ.ɡi ʃɒk ˈsɪn.drəʊm/ (n): Hội chứng sốc Dengue, biến chứng nghiêm trọng có thể gây tử vong nếu không được điều trị kịp thời.</p></li>
+<li><p><strong>severe expression</strong> /sɪˈvɪər ɪkˈspreʃ.ən/ (n): Biểu hiện nặng của bệnh.</p></li>
+<li><p><strong>case-fatality ratio (CFR)</strong> /keɪs fəˈtæl.ə.ti ˈreɪ.ʃi.əʊ/ (n): Tỷ lệ tử vong ca bệnh; tỷ lệ số người tử vong trong tổng số ca mắc bệnh.</p></li>
+<li><p><strong>subsequent infection</strong> /ˈsʌb.sɪ.kwənt ɪnˈfek.ʃən/ (n): Nhiễm bệnh xảy ra sau một lần nhiễm trước đó.</p></li>
+<li><p><strong>serotype combination</strong> /ˈsɪə.rə.taɪp ˌkɒm.bɪˈneɪ.ʃən/ (n): Sự kết hợp giữa các kiểu huyết thanh khác nhau.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>Johansson et al.&nbsp;published a review of mathematical approaches to study dengue transmission dynamics with a focus on estimation methods for the basic reproduction number and their consequences for the impact of vaccination. The present paper reviews research articles of deterministic mathematical models of dengue transmission in humans. Although a large part of the models we review was also briefly discussed in Johansson et al, we present a more detailed assessment of model structures, and link this with the underlying assumptions based on epidemiological and entomological studies. These model structures are explored and discussed regarding their influence on projections of the potential impact of vector-control and/or vaccination options.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong>mathematical approach</strong> /ˌmæθ.əˈmæt.ɪ.kəl əˈprəʊtʃ/ (n): Phương pháp toán học được sử dụng để mô tả, phân tích hoặc giải thích một hiện tượng.</p></li>
+<li><p><strong>assessment</strong> /əˈses.mənt/ (n): Sự đánh giá hoặc xem xét một cách có hệ thống.</p></li>
+<li><p><strong>underlying assumption</strong> /ˌʌn.dəˈlaɪ.ɪŋ əˈsʌmp.ʃən/ (n): Giả định nền tảng hoặc giả định cơ bản làm cơ sở cho mô hình hoặc phân tích.</p></li>
+<li><p><strong>epidemiological study</strong> /ˌep.ɪˌdiː.mi.əˈlɒdʒ.ɪ.kəl ˈstʌd.i/ (n): Nghiên cứu dịch tễ học về sự phân bố và các yếu tố quyết định bệnh tật trong quần thể.</p></li>
+<li><p><strong>entomological study</strong> /ˌen.təˈmɒl.ə.dʒɪ.kəl ˈstʌd.i/ (n): Nghiên cứu côn trùng học, đặc biệt liên quan đến các véc-tơ truyền bệnh như muỗi.</p></li>
+<li><p><strong>influence</strong> /ˈɪn.flu.əns/ (n, v): Sự ảnh hưởng hoặc tác động đến một kết quả hoặc quá trình.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>paper</category>
+  <category>dengue</category>
+  <guid>https:/khoaltd.github.io/posts/paper_01/</guid>
+  <pubDate>Thu, 11 Jun 2026 17:00:00 GMT</pubDate>
+  <media:content url="https:/khoaltd.github.io/posts/paper_01/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Tổng quan về các mô hình bệnh truyền nhiễm đa ngăn</title>
-  <link>https:/khoaltd.github.io/posts/paper/</link>
+  <link>https:/khoaltd.github.io/posts/paper_02/</link>
   <description><![CDATA[ 
 
 
@@ -119,6 +269,237 @@ Note
 </div>
 </div>
 </div>
+<p>Because of both data quality and data limitations from public surveillance data systems, a statistical model should take the following features into account in its design and development. First, a statistical model should be able to make predictions and, more importantly, to quantify prediction uncertainties. Forecasting is known to be a notoriously hard task, which depends heavily on the quality of data at hand and a certain model chosen to summarise the information from observed data and then to reproduce information beyond the observational time period. The chosen model is of critical importance to deliver prediction. This paper concerns a review of the family of classical compartment-based infectious disease models, which have been the most widely used mechanistic models to capture key features of infection dynamics. We begin with the most basic Susceptible–Infectious–Removed (SIR) model to build up the framework (Section 2), and this three-compartment model is then generalised to have more compartments to embrace additional features of infection dynamics (Section 3), such as the well-known four- compartment model, Susceptible–Exposed–Infectious–Removed (SEIR) model, which takes the incubation period of contagion into account. Given many types of factors potentially influencing the evolution of an epidemic, a single prediction value is insufficient to be trustworthy unless prediction uncertainty is reported as part of forecast analysis. Quantification of prediction uncertainty is of critical importance, especially when a forecast is made at an early phase of an epidemic with limited data. Building sampling variations in infectious disease models makes a statistical modelling approach different from a mathematical modelling approach. A clear advantage of a statistical model is that the model parameters, including those in the mechanistic model, can be estimated, rather than being specified by certain subjectively chosen prior information.</p>
+<p>Second, the consideration of building sampling uncertainties in the modelling of infectious disease is a fundamental difference of a statistical modelling approach from a mechanistic modelling approach known in the mathematical literature of dynamic systems. A mechanistic model is typically governed by a system of ordinary differential equations, such as the existing three-compartment SIR model consisting of three differential equations, which explicitly specifies the underlying mechanisms of an epidemic. This model is assumed to govern an operational system of disease contagion and recovery or death, which, in reality, cannot be directly observed. Most of the time, public surveillance data are accessible, which represent only a few snapshots of the underlying latent mechanistic system of an epidemic. Such gaps may be addressed by a statistical model that incorporates sampling schemes to explain how observed data are collected from the underlying infection dynamics. In turn, prediction uncertainty will reflect forms and procedures of the chosen sampling schemes specified in the statistical model. In this paper (Section 5.1), we will introduce the state-space model as a natural and effective modelling framework to integrate the mechanistic model and sampling schemes seamlessly.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(deSolve)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyr)</span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(dplyr)</span>
+<span id="cb1-5"></span>
+<span id="cb1-6">initial <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">S =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">99</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">I =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">R =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb1-7">times <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span></span>
+<span id="cb1-8">params <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">beta =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">gamma =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.2</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">N =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb1-9"></span>
+<span id="cb1-10">SIR <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(t, y, params) {</span>
+<span id="cb1-11">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">with</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as.list</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(params, y)), {</span>
+<span id="cb1-12">    dS <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>beta <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> S <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> I <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> N</span>
+<span id="cb1-13">    dI <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> beta <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> S <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> I <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> N <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> gamma <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> I</span>
+<span id="cb1-14">    dR <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> gamma <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> I</span>
+<span id="cb1-15">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(dS, dI, dR))</span>
+<span id="cb1-16">  })</span>
+<span id="cb1-17">}</span>
+<span id="cb1-18"></span>
+<span id="cb1-19">out.rk4 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as.data.frame</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rk4</span>(initial, times, SIR, params))</span>
+<span id="cb1-20"></span>
+<span id="cb1-21"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Chuyển sang long format</span></span>
+<span id="cb1-22">sir_long <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pivot_longer</span>(</span>
+<span id="cb1-23">  out.rk4,</span>
+<span id="cb1-24">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">cols =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(S, I, R),</span>
+<span id="cb1-25">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">names_to =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Compartment"</span>,</span>
+<span id="cb1-26">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">values_to =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Population"</span></span>
+<span id="cb1-27">)</span>
+<span id="cb1-28"></span>
+<span id="cb1-29"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Vẽ</span></span>
+<span id="cb1-30"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(sir_long,</span>
+<span id="cb1-31">       <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> time,</span>
+<span id="cb1-32">           <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> Population,</span>
+<span id="cb1-33">           <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> Compartment)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-34">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_line</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">linewidth =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.3</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-35">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(</span>
+<span id="cb1-36">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"SIR model"</span>,</span>
+<span id="cb1-37">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Runge-Kutta power 4"</span>,</span>
+<span id="cb1-38">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Time"</span>,</span>
+<span id="cb1-39">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>,</span>
+<span id="cb1-40">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Group"</span></span>
+<span id="cb1-41">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-42">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">base_size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-43">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme</span>(</span>
+<span id="cb1-44">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">plot.title =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">element_text</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bold"</span>),</span>
+<span id="cb1-45">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">legend.position =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"top"</span></span>
+<span id="cb1-46">  )</span></code></pre></div></div>
+</div>
 
 
 </section>
@@ -126,9 +507,9 @@ Note
 
  ]]></description>
   <category>paper</category>
-  <guid>https:/khoaltd.github.io/posts/paper/</guid>
+  <guid>https:/khoaltd.github.io/posts/paper_02/</guid>
   <pubDate>Thu, 11 Jun 2026 17:00:00 GMT</pubDate>
-  <media:content url="https:/khoaltd.github.io/posts/paper/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https:/khoaltd.github.io/posts/paper_02/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
